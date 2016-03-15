@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335FA02A1C97F4EF0098435E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335FA0291C97F4EF0098435E /* main.m */; };
+		335FA02D1C97F4EF0098435E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335FA02C1C97F4EF0098435E /* AppDelegate.m */; };
+		335FA0301C97F4EF0098435E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335FA02F1C97F4EF0098435E /* ViewController.m */; };
+		335FA0331C97F4EF0098435E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335FA0311C97F4EF0098435E /* Main.storyboard */; };
+		335FA0351C97F4EF0098435E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335FA0341C97F4EF0098435E /* Assets.xcassets */; };
+		335FA0381C97F4EF0098435E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335FA0361C97F4EF0098435E /* LaunchScreen.storyboard */; };
+		335FA0431C97F4EF0098435E /* MasonyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335FA0421C97F4EF0098435E /* MasonyDemoTests.m */; };
+		335FA04E1C97F4EF0098435E /* MasonyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335FA04D1C97F4EF0098435E /* MasonyDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335FA03F1C97F4EF0098435E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335FA01D1C97F4EF0098435E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335FA0241C97F4EF0098435E;
+			remoteInfo = MasonyDemo;
+		};
+		335FA04A1C97F4EF0098435E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335FA01D1C97F4EF0098435E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335FA0241C97F4EF0098435E;
+			remoteInfo = MasonyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		335FA0251C97F4EF0098435E /* MasonyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335FA0291C97F4EF0098435E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335FA02B1C97F4EF0098435E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335FA02C1C97F4EF0098435E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		335FA02E1C97F4EF0098435E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		335FA02F1C97F4EF0098435E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		335FA0321C97F4EF0098435E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335FA0341C97F4EF0098435E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335FA0371C97F4EF0098435E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		335FA0391C97F4EF0098435E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335FA03E1C97F4EF0098435E /* MasonyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335FA0421C97F4EF0098435E /* MasonyDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonyDemoTests.m; sourceTree = "<group>"; };
+		335FA0441C97F4EF0098435E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335FA0491C97F4EF0098435E /* MasonyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335FA04D1C97F4EF0098435E /* MasonyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonyDemoUITests.m; sourceTree = "<group>"; };
+		335FA04F1C97F4EF0098435E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335FA0221C97F4EF0098435E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335FA03B1C97F4EF0098435E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335FA0461C97F4EF0098435E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335FA01C1C97F4EF0098435E = {
+			isa = PBXGroup;
+			children = (
+				335FA0271C97F4EF0098435E /* MasonyDemo */,
+				335FA0411C97F4EF0098435E /* MasonyDemoTests */,
+				335FA04C1C97F4EF0098435E /* MasonyDemoUITests */,
+				335FA0261C97F4EF0098435E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335FA0261C97F4EF0098435E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335FA0251C97F4EF0098435E /* MasonyDemo.app */,
+				335FA03E1C97F4EF0098435E /* MasonyDemoTests.xctest */,
+				335FA0491C97F4EF0098435E /* MasonyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335FA0271C97F4EF0098435E /* MasonyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				335FA02B1C97F4EF0098435E /* AppDelegate.h */,
+				335FA02C1C97F4EF0098435E /* AppDelegate.m */,
+				335FA02E1C97F4EF0098435E /* ViewController.h */,
+				335FA02F1C97F4EF0098435E /* ViewController.m */,
+				335FA0311C97F4EF0098435E /* Main.storyboard */,
+				335FA0341C97F4EF0098435E /* Assets.xcassets */,
+				335FA0361C97F4EF0098435E /* LaunchScreen.storyboard */,
+				335FA0391C97F4EF0098435E /* Info.plist */,
+				335FA0281C97F4EF0098435E /* Supporting Files */,
+			);
+			path = MasonyDemo;
+			sourceTree = "<group>";
+		};
+		335FA0281C97F4EF0098435E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335FA0291C97F4EF0098435E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335FA0411C97F4EF0098435E /* MasonyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				335FA0421C97F4EF0098435E /* MasonyDemoTests.m */,
+				335FA0441C97F4EF0098435E /* Info.plist */,
+			);
+			path = MasonyDemoTests;
+			sourceTree = "<group>";
+		};
+		335FA04C1C97F4EF0098435E /* MasonyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				335FA04D1C97F4EF0098435E /* MasonyDemoUITests.m */,
+				335FA04F1C97F4EF0098435E /* Info.plist */,
+			);
+			path = MasonyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335FA0241C97F4EF0098435E /* MasonyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335FA0521C97F4EF0098435E /* Build configuration list for PBXNativeTarget "MasonyDemo" */;
+			buildPhases = (
+				335FA0211C97F4EF0098435E /* Sources */,
+				335FA0221C97F4EF0098435E /* Frameworks */,
+				335FA0231C97F4EF0098435E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonyDemo;
+			productName = MasonyDemo;
+			productReference = 335FA0251C97F4EF0098435E /* MasonyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335FA03D1C97F4EF0098435E /* MasonyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335FA0551C97F4EF0098435E /* Build configuration list for PBXNativeTarget "MasonyDemoTests" */;
+			buildPhases = (
+				335FA03A1C97F4EF0098435E /* Sources */,
+				335FA03B1C97F4EF0098435E /* Frameworks */,
+				335FA03C1C97F4EF0098435E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335FA0401C97F4EF0098435E /* PBXTargetDependency */,
+			);
+			name = MasonyDemoTests;
+			productName = MasonyDemoTests;
+			productReference = 335FA03E1C97F4EF0098435E /* MasonyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		335FA0481C97F4EF0098435E /* MasonyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335FA0581C97F4EF0098435E /* Build configuration list for PBXNativeTarget "MasonyDemoUITests" */;
+			buildPhases = (
+				335FA0451C97F4EF0098435E /* Sources */,
+				335FA0461C97F4EF0098435E /* Frameworks */,
+				335FA0471C97F4EF0098435E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335FA04B1C97F4EF0098435E /* PBXTargetDependency */,
+			);
+			name = MasonyDemoUITests;
+			productName = MasonyDemoUITests;
+			productReference = 335FA0491C97F4EF0098435E /* MasonyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335FA01D1C97F4EF0098435E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pengpeng;
+				TargetAttributes = {
+					335FA0241C97F4EF0098435E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9JYRHPQH49;
+					};
+					335FA03D1C97F4EF0098435E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9JYRHPQH49;
+						TestTargetID = 335FA0241C97F4EF0098435E;
+					};
+					335FA0481C97F4EF0098435E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9JYRHPQH49;
+						TestTargetID = 335FA0241C97F4EF0098435E;
+					};
+				};
+			};
+			buildConfigurationList = 335FA0201C97F4EF0098435E /* Build configuration list for PBXProject "MasonyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335FA01C1C97F4EF0098435E;
+			productRefGroup = 335FA0261C97F4EF0098435E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335FA0241C97F4EF0098435E /* MasonyDemo */,
+				335FA03D1C97F4EF0098435E /* MasonyDemoTests */,
+				335FA0481C97F4EF0098435E /* MasonyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335FA0231C97F4EF0098435E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FA0381C97F4EF0098435E /* LaunchScreen.storyboard in Resources */,
+				335FA0351C97F4EF0098435E /* Assets.xcassets in Resources */,
+				335FA0331C97F4EF0098435E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335FA03C1C97F4EF0098435E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335FA0471C97F4EF0098435E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335FA0211C97F4EF0098435E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FA0301C97F4EF0098435E /* ViewController.m in Sources */,
+				335FA02D1C97F4EF0098435E /* AppDelegate.m in Sources */,
+				335FA02A1C97F4EF0098435E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335FA03A1C97F4EF0098435E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FA0431C97F4EF0098435E /* MasonyDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335FA0451C97F4EF0098435E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335FA04E1C97F4EF0098435E /* MasonyDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335FA0401C97F4EF0098435E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335FA0241C97F4EF0098435E /* MasonyDemo */;
+			targetProxy = 335FA03F1C97F4EF0098435E /* PBXContainerItemProxy */;
+		};
+		335FA04B1C97F4EF0098435E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335FA0241C97F4EF0098435E /* MasonyDemo */;
+			targetProxy = 335FA04A1C97F4EF0098435E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335FA0311C97F4EF0098435E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335FA0321C97F4EF0098435E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		335FA0361C97F4EF0098435E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335FA0371C97F4EF0098435E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335FA0501C97F4EF0098435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335FA0511C97F4EF0098435E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335FA0531C97F4EF0098435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MasonyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxkh.Demo.MasonyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		335FA0541C97F4EF0098435E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MasonyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxkh.Demo.MasonyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		335FA0561C97F4EF0098435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MasonyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxkh.Demo.MasonyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasonyDemo.app/MasonyDemo";
+			};
+			name = Debug;
+		};
+		335FA0571C97F4EF0098435E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MasonyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxkh.Demo.MasonyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasonyDemo.app/MasonyDemo";
+			};
+			name = Release;
+		};
+		335FA0591C97F4EF0098435E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasonyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxkh.Demo.MasonyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MasonyDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		335FA05A1C97F4EF0098435E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasonyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cxkh.Demo.MasonyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MasonyDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335FA0201C97F4EF0098435E /* Build configuration list for PBXProject "MasonyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335FA0501C97F4EF0098435E /* Debug */,
+				335FA0511C97F4EF0098435E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335FA0521C97F4EF0098435E /* Build configuration list for PBXNativeTarget "MasonyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335FA0531C97F4EF0098435E /* Debug */,
+				335FA0541C97F4EF0098435E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		335FA0551C97F4EF0098435E /* Build configuration list for PBXNativeTarget "MasonyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335FA0561C97F4EF0098435E /* Debug */,
+				335FA0571C97F4EF0098435E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		335FA0581C97F4EF0098435E /* Build configuration list for PBXNativeTarget "MasonyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335FA0591C97F4EF0098435E /* Debug */,
+				335FA05A1C97F4EF0098435E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335FA01D1C97F4EF0098435E /* Project object */;
+}
